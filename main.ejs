@@ -1,0 +1,28 @@
+<style>
+  .timeBlock {
+      background:<%= app.prefs.colour.value %>;
+  }
+</style>
+
+<div style="<%= app.prefs.style.value %>" class="countdown <%= app.prefs.clss.value %>">
+    
+    <div class="timeBlock">
+      <div class="days tim">0</div>days</div>
+    <div class="timeBlock">
+      <div class="hours tim">0</div>hours</div>   
+    <div class="timeBlock">
+      <div class="minutes tim">0</div>minutes</div> 
+    <div class="timeBlock">
+      <div class="seconds tim">0</div>seconds</div>    
+    <div style="color:<%= app.prefs.colour.value %>" class="title">
+      <%
+        if (app.prefs.title.value) {
+            %>
+        until <%= app.prefs.title.value %> on <%= app.prefs.date.value %>
+            <%
+        }
+        %>
+    </div>
+  
+</div>
+
