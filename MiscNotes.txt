@@ -1,0 +1,11 @@
+I want to create a countdown timer in javascript. There are many.
+This appears to be a basic set of files to achieve this.
+
+I want to use the timer in Frog Learn, as part of a widget.
+
+A widget requires javascript. It can also take css and html in the .ejs files which are used as views.
+
+It would be nice to have additional options accessible by the user for config.
+
+Options can be retrieved in the console from the user and passed to the code.
+There are a number of different views/actions for ‘when in edit mode’, ‘when opened’.
